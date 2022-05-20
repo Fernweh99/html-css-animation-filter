@@ -27,6 +27,11 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: border-radius 1s linear;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
 }
 
 /* Esercizio 4 */
