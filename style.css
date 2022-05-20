@@ -97,6 +97,14 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: border-radius 1s linear, filter 1s ease, 
+    transform 1s linear;
+}
+
+.ex-9-img:hover {
+    border-radius: 20px;
+    filter: saturate(0.5) sepia(0.5);
+    transform: scale(1.5);
 }
 
 /* Esercizio 10 */
