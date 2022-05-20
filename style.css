@@ -74,6 +74,15 @@
     filter: saturate(0);
 }
 
+/* 7 */
+.ex-7-img {
+    transition: filter 1s linear;
+}
+
+.ex-7-img:hover {
+    filter: sepia(0.6) saturate(0.7);
+}
+
 /* Esercizio 9 */
 .ex-9-img {
     margin: 50px 100px;
